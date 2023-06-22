@@ -43,6 +43,7 @@ void updateMaxCals(int maxCalsArray[], int size, int cals) {
     maxCalsArray[i] = cals;
 }
 
+// Sums all cals in array
 int sumMaxCals(int maxCalsArray[], int size) {
     int sum = 0;
     for (int i = 0; i < size; i++, maxCalsArray++)
